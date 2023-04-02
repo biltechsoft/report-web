@@ -1,0 +1,66 @@
+
+    .gradientbg {
+        /*
+          Variables are defined right along style declarations.
+          They're indicated by the double-hyphen prefix.
+        */
+        --color-1: rgba(167, 212, 156, 0.635);
+        --color-2: rgba(0, 106, 227, 0.575);
+        min-height: 80vh;
+        /*
+          You can access variables using the 'var()' function:
+        */
+        background: linear-gradient(170deg, var(--color-1), var(--color-2));
+      }
+      .gradient100 {
+        /*
+          Variables are defined right along style declarations.
+          They're indicated by the double-hyphen prefix.
+        */
+        --color-1: rgb(167, 212, 156);
+        --color-2: rgb(0, 106, 227);
+        /*
+          You can access variables using the 'var()' function:
+        */
+        background: linear-gradient(170deg, var(--color-1), var(--color-2));
+        border-radius:  20px 20px 20px 20px;
+        text-align: center;
+        
+    }
+    .allbodybg{background: white;
+    border-radius: 30px 30px 30px 30px;
+
+padding-left:0px;
+padding-right: 0px}
+      .textcolorwhite{color: aliceblue;}
+      .Link
+      {text-decoration: none;
+        color: black;
+        padding: 15px;
+        font-size: 20px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    .Link:hover
+      {text-decoration: none;
+        color: black;
+        padding: 15px;
+        font-size: 20px;
+        background-color: rgb(32, 188, 255);
+        border-bottom: 3px solid rgb(42, 1, 167);
+        color: white;
+    }
+    .loginbtn{
+        background-color: rgb(3, 177, 3);
+        color: white;
+        text-decoration: none;
+        padding: 5px 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .loginbtn:hover{
+        background-color: rgb(4, 224, 4);
+        color: white;
+        text-decoration: none;
+        padding: 5px 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+   

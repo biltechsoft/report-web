@@ -1,0 +1,55 @@
+
+.headerbody{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-shadow: 5px 5px 10px;
+
+}
+.dashbordusericon{
+    font-size: 20px;
+    float: left;
+}
+
+*{
+    padding:0px;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.Navbar{margin: 0px;
+padding: 0px;}
+.mainnav{
+width: 100%;
+font-size: 15px;
+
+}
+.logo{
+    width: 20%;
+}
+
+.Linkdropdown{ padding: 8px 18px;font-size: 16px; }
+.subLink{ text-decoration: none; padding: 15px;
+text-align: center;color: black;
+width: 100%; font-size: 12px;}
+
+.menulink{
+    width: 60%;
+}
+.menulogin{
+    width: 20%;
+}
+
+.menulinkul{
+
+display: -webkit-flex;
+}
+.menulinkli{
+    padding: 20px;
+}
+.menulinklia{
+   text-decoration: none;
+   color: black; 
+
+}

@@ -1,0 +1,33 @@
+1. Install Python
+2. pip install django [to install globally] 
+or, to create virtual environment, need to excute from corresponding folder
+python -m venv venv (name)
+then, venv\Scripts\activate
+then, pip install Django
+
+3. to create a project
+django-admin startproject report . (report is name, . for current folder)
+
+to check django install: python manage.py runserver
+
+4. to create a app: django-admin startapp api (api is app name)
+
+5. to install mysqlclient: pip install mysqlclient
+
+6. to install restframework: pip install djangorestframework
+
+7. to makemigrations: python manage.py makemigrations
+
+8. to migrate to database: python manage.py migrate
+
+9. to create admin: python manage.py createsuperuser
+admin, hasan@gmail.com, 1234
+
+other pass: aBc234@3
+
+
+For import-export: pip install django-import-export
+For Jazzmin: pip install -U django-jazzmin and add apps 'jazzmin'
+To install social login: pip install django-allauth
+
+

@@ -1,0 +1,658 @@
+.loginbody{ margin: 20px; padding: 20px;}
+.signupbody{ margin: 20px; padding: 20px;}
+.usericonarea{
+   margin-top: 30px; 
+}
+
+.usericon{
+font-size: 40px;
+color: rgb(189, 230, 255);
+}
+.loginarealeft{font-size: 30px;}
+.loginsignuptitle{
+    color: white;
+    font-size: 17px;
+}
+.inputitmdiv{
+    margin: 30px;
+}
+.inputitmdivsignup{
+    margin: 20px;
+}
+
+.inputitm{padding: 5px;
+font-size: 20px;
+border-radius: 50px 50px;
+background-color: white;
+border: none;
+text-align: center;
+width: 100%;
+box-shadow: 2px 2px 5px;}
+
+.inputitmbtn{padding: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: none;
+    text-align: center;
+    width: 50%;
+    background: rgb(122, 203, 1);
+    color: white;
+}
+.inputitmbtnsignup{
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: none;
+    text-align: center;
+    width: 50%;
+    background: rgb(122, 203, 1);
+    color: white;
+}
+
+.remeber{float: left;
+    padding: 5px;
+    color: rgb(195, 235, 250);}
+.forgot{float: right;
+    padding: 5px;
+    color: rgb(195, 235, 250);}
+.loginbuttomarea{
+    color: rgb(145, 255, 224);
+    padding: 20px 0px;
+}
+
+/* Dailyreportbody */
+
+.bodyheaderleft{
+    /*
+          Variables are defined right along style declarations.
+          They're indicated by the double-hyphen prefix.
+        */
+        --color-2: rgb(167, 212, 156);
+        --color-1: rgb(0, 106, 227);
+        /*
+          You can access variables using the 'var()' function:
+        */
+        background: linear-gradient(170deg, var(--color-1), var(--color-2));
+
+    width: 50%;
+    float: left;
+    border-radius: 30px 0px 50px 0px;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.bodyheaderright{
+    width: 50%;
+    float: right;
+    padding: 12px;
+}
+.inputdate{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.inputmonthlydate{
+    width: 45%;
+    padding: 5px;
+    margin: 2%;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.bodyMreportLeft{ 
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    padding: 20px;
+}
+.bodyMreportMid{
+    width: 30%;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    padding: 20px;
+}
+.bodyMreportRight{
+    width: 30%;
+    text-align: center;
+    font-size: 22px;
+    float: right;
+    padding: 20px;
+}
+
+
+.bodyleft{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyright{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    padding: 20px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frombodyleftfirst{
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    /*padding: 10px;*/
+    color: white;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    border-radius: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodyrightfirst{
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    border-radius: 0px 30px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodyleftfirst40{
+    width: 40%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    /*padding: 10px;*/
+    color: white;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    border-radius: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodyrightfirst60{
+    width: 60%;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    border-radius: 0px 30px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodyleft{
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    /*padding: 10px;*/
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    height: 74px;
+  
+}
+.frombodyleft40{
+    width: 40%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    /*padding: 10px;*/
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    height: 74px;
+  
+}
+.frombodyleft30{
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.MReportbodyRight{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.MReportbodyLeft{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+   
+}
+.MReportbodyLeft20{
+    width: 20%;
+    height: 51px;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    background: #80808040;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+
+
+.frombodyright{
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+   
+}
+.frombodyright60{
+    width: 60%;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+   
+}
+.frombodyright30{
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    float: right;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+   
+}
+.inputitmbtnsavearea{
+    padding: 30px 20% 30px 20%;
+    min-width: 200px;
+    margin-top: 20px;
+}
+.inputitmbtnsave{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(0, 157, 255);
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+
+}
+.inputitem{
+    width: 100%;
+    padding:10px 10%;
+    background-color: gainsboro;
+    border: none;
+    height: 100%;
+}
+
+.inputitemT{
+    width: 100%;
+    padding:10px 5%;
+    background-color: gainsboro;
+    border: none;
+    height: 100%;
+}
+
+.inputitem20{
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 10px 10%;
+    text-align: center;
+    font-size: 17px;
+    height: 100%;
+}
+.inputitem25{
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+    height: 100%;
+}
+
+
+
+.inputitemfirst{
+    width: 100%;
+    padding:10px 10% 10px 10%;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 0px 30px 0px 0px;
+    height: 100%;
+}
+.fromarea{padding: 20px 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 75px;
+}
+
+.inputitemtextarea{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid rgb(0, 157, 255);
+}
+.inputitemcheckbox{
+    height: 41px;
+}
+
+/* Accomplishment */
+
+.bodyleftprogress{
+        width: 37%;
+        text-align: center;
+        font-size: 22px;
+        float: left;
+        padding: 20px;
+}
+.bodycenterprogress{
+    width: 18%;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    padding: 20px;
+}
+.bodyrightprogress{
+    width: 27%;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    padding: 20px;
+}
+.frombodyleftprogress{
+    width: 40%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(0, 149, 255);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodycenterprogress{
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    background: rgb(224, 230, 234);
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.frombodyrightprogress{
+    width: 30%;
+    font-size: 17px;
+    float: left;
+    background: rgb(255, 255, 255);
+    padding: 2px 5px;
+    color: black;
+    text-align: center;
+    border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 10px;
+    height: 74px;
+}
+
+/* content */
+.bodysection{  
+    margin: 40px 0px; 
+}
+.bodybg{
+    background: white;
+    padding: 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+.bodyconarea{
+    width: 100%;
+}
+.contuctarea{padding: 30px;
+text-align: left;
+font-size: 17px;}
+
+.socialmedia1{ 
+    color: rgb(0, 34, 255);
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+}
+.socialmedia2{ 
+    color: rgb(0, 200, 255);
+    float: left;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+}
+.socialmedia3{ 
+    color: rgb(0, 255, 38);
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+}
+.socialmedia4{ 
+    color: red;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.feedbackarea{
+    padding: 10px 10% ;
+    text-align: center;
+    background: rgb(0, 115, 255);
+    color: white;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0px 20px;
+}
+.feedbackbtn{
+    background: rgb(0, 202, 0);
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    border: none;
+}
+.inputitmfeedback{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+/* Book name */
+
+
+.totalprogress{
+font-size: 22px;
+text-align: center;
+padding: 10px 10px;
+width: 100%;
+}
+.totalprogressbar{
+    margin:10px 10%;
+}
+
+/* counselor name */
+.counselor{
+    float: left;
+    padding: 0px 30px;
+    width: 100%;
+}
+.counselorright{
+float: right;
+padding: 20px;
+width: 100%;
+}
+.counselorrightinput{
+    padding: 10px;
+    width: 100%;
+}
+.advicesname{
+    padding: 10px;
+
+}
+.seeadvices{
+    padding: 5px 10px;
+    background: rgb(1, 109, 233);
+    color: white;
+    float: right;
+    font-size: 17px;
+    border-radius: 50px 50px;
+    margin-top: 4px;
+}
+.seemore{
+    padding: 5px 10px;
+    background: rgba(8, 190, 23, 0.792);
+    color: white;
+    float: right;
+    font-size: 17px;
+    border-radius: 50px 50px;
+    margin-top: 2px;
+}
+.counselorlist{
+    border-top: 1px solid rgb(199, 199, 199);
+    padding: 5px 0px;
+}
+.lastadviser{
+    padding:10px 10px;
+    margin: 2px 20px;
+    background: rgb(11, 0, 213);
+    color: white;
+    font-size: 20px;
+}
+.lastadviserlist{
+   
+    padding: 4px 5px;
+    margin: 3px 5px ;
+    background: #ffffff;
+    text-align: justify;
+}
+
+.PageNotFound{
+    font-size: 70px;text-align: center;
+    padding: 50px;
+  }
+  .bodytopheight{
+      height: 75px;
+  }
+  .textrotate90{
+    transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);  /* Safari */
+-moz-transform: rotate(-90deg);  /* Firefox */
+-o-transform: rotate(-90deg);  /* Opera */
+-ms-transform: rotate(-90deg);  /* IE (Internet Expl0rer) */
+transform-origin: left top;
+position:-webkit-sticky;
+bottom: 0;
+left: 5px;
+}
+.cardIcon{
+    font-size: 100px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.cardTitle{
+text-align: center;
+}
+.cardbody{
+text-align: justify;
+}
+.scrollable {
+    background-color: #f1f1f1;
+    height: 800px;
+    overflow: auto;
+    margin: 20px;
+    text-align: justify;
+    padding: 0;
+  }
+.accountInfut{
+border:none;
+font-size: 20px;
+padding:5px;
+width:100%;
+text-align:center;
+}
